@@ -1,0 +1,278 @@
+type,id,question,latency_sec,steps_count,steps_path,relevance_score,response,success
+Simple,1,What are the four risk categories defined by the EU AI Act?,197.23028373718262,3,retrieve ➔ web_search ➔ generate,0.05555555555555555,"The four risk categories defined by the EU AI Act are:
+
+1. **Unacceptable risk**: This category includes AI applications that are incompatible with EU values and fundamental rights. 
+2. **High risk**: This category includes AI systems that pose a significant risk to citizens and require strict compliance obligations before they can be put on the EU market.
+3. **Limited risk**: This category includes AI systems that pose a moderate risk to citizens and require transparency obligations, such as clearly labeling AI-generated content and notifying users that they are interacting with an automated system.
+4. **Minimal risk**: This category includes AI systems that pose a minor or no risk to citizens and do not require any specific obligations under the AI Act, although general product safety laws still apply. Examples of minimal-risk AI systems include video games, spam filters, and AI-enabled search bars.",True
+Simple,2,What is the OECD AI Principle 1.3 about?,187.113853931427,2,retrieve ➔ generate,0.375,"OECD AI Principle 1.3 is about **Transparency and Explainability**. According to this principle, AI systems must be transparent and explainable. AI actors must provide clear, understandable information about how the AI operates, how decisions are reached, and who is responsible. This allows individuals affected by an AI system's output to understand the rationale and challenge the results if necessary.",True
+Simple,3,What are prohibited AI practices under the EU AI Act?,189.2989411354065,3,retrieve ➔ web_search ➔ generate,0.2777777777777778,"According to the provided context, the EU AI Act prohibits certain AI practices under Article 5. These prohibited practices include:
+
+1. **Subliminal techniques**: AI systems that deploy subliminal techniques beyond a person's consciousness or purposefully manipulative or deceptive techniques, with the objective or effect of materially distorting the behavior of a person or a group of persons by appreciably impairing their ability to make an informed decision, thereby causing them to take a decision that they would not have otherwise taken in a manner that causes or is reasonably likely to cause that person, another person or group of persons significant harm.
+
+2. **Exploitative practices**: AI systems that exploit the vulnerabilities of an individual or group of people based on their age, disability, social situation, or economic situation in a way that materially distorts their behavior and is likely to cause significant harm to that individual or others.
+
+3. **Social scoring practices**: AI systems that evaluate or classify people based on their social behavior or personal traits, which by their inherent nature violate fundamental rights and EU values.
+
+4. **Individual criminal offence risk assessment and prediction**: AI systems that use profiling or personality traits and characteristics to predict a person's risk of committing a crime.
+
+5. **Untargeted scraping**: AI systems that scrape facial images from the internet or CCTV footage without consent.
+
+6. **Emotion recognition**: AI systems that infer emotions in the workplace or educational institutions.
+
+7. **Biometric categorization**: AI systems that categorize people based on their biometric data.
+
+8. **Real-time remote biometric identification**: AI systems that use real-time remote biometric identification in publicly accessible spaces for law enforcement purposes, with some exceptions.
+
+These prohibited practices are outlined in Article 5 of the EU AI Act, and their summaries are meant to provide helpful explanation but are not legal binding.",True
+Simple,4,Name three high-risk AI system categories under the EU AI Act.,197.76193118095398,2,retrieve ➔ generate,1.0,"Based on the provided context, the three high-risk AI system categories under the EU AI Act are:
+
+1. **Biometrics**: Systems used for biometric identification, verification, or categorization.
+2. **Critical Infrastructure**: AI in road traffic, water, gas, heating, or electricity networks.
+3. **Law Enforcement**: AI used for assessing evidence credibility, risk profiling of suspects, or polygraph testing.",True
+Simple,5,What are the transparency obligations for limited-risk AI systems?,197.53044509887695,3,retrieve ➔ web_search ➔ generate,0.5,"According to the provided context, the transparency obligations for limited-risk AI systems include:
+
+1. **Informing users**: Limited-risk AI systems must inform users that they are interacting with an AI system.
+2. **Clear and distinguishable manner**: The information must be provided in a clear and distinguishable manner at the latest time of the first interaction or exposure.
+3. **Labeling AI-generated content**: AI-generated content must be marked as artificially generated in both human-readable and machine-readable formats.
+4. **Detectable through automated systems**: Labels must remain detectable through automated systems.
+5. **Special rules for deep fake content**: Deep fake content has special rules, with limited exceptions for artistic or editorial contexts under editorial responsibility.
+
+These obligations are mentioned in the following sources:
+
+* [Web Search Result 1](https://gdprlocal.com/ai-transparency-requirements)
+* [Web Search Result 2](https://www.modelop.com/ai-governance/ai-regulations-standards/eu-ai-act)
+* [Web Search Result 3](https://www.wilmerhale.com/en/insights/blogs/wilmerhale-privacy-and-cybersecurity-law/20240528-limited-risk-ai-a-deep-dive-into-article-50-of-the-european-unions-ai-act)
+
+These sources also mention that the European Commission's AI Office will encourage and facilitate the drawing up of codes of practice at the EU level to facilitate the effective implementation of the obligations regarding the detection and labeling of artificially generated or manipulated content.",True
+Simple,6,What is the OECD's policy recommendation regarding digital ecosystems?,191.3568890094757,3,retrieve ➔ web_search ➔ generate,0.7222222222222222,"The OECD recommends that governments implement policies to support trustworthy AI through five key action pillars, one of which is ""Shaping an Enabling Policy Environment"". Within this pillar, the OECD suggests creating flexible policy frameworks, sandbox testing environments, and regulations that encourage innovation while protecting human rights.
+
+Regarding digital ecosystems specifically, the OECD suggests that a proper response to market competition concerns would require an ex ante regulatory intervention. This could involve information-sharing mechanisms to redistribute value in a fair way among all market participants, through which data would confer value not only to market leaders but also to their competitors and other firms of the ecosystem to the benefit of consumers.
+
+Additionally, the OECD emphasizes the importance of addressing the large information asymmetry in digital ecosystems through ex ante regulatory intervention. This could involve measures such as:
+
+* Dealing with concerns regarding digital ecosystems through ex ante digital regulation
+* Implementing information-sharing mechanisms to redistribute value in a fair way among all market participants
+* Fostering a digital ecosystem that promotes competition and innovation while protecting human rights.
+
+It's worth noting that the OECD also highlights the importance of international cooperation in addressing the challenges and opportunities presented by digital ecosystems.",True
+Simple,7,What is the definition of a minimal risk AI system under the EU AI Act?,192.06994104385376,3,retrieve ➔ web_search ➔ generate,0.7222222222222222,"According to the provided context, a minimal risk AI system under the EU AI Act is defined as an AI system that:
+
+1. Does not fall under the categories of high-risk, limited risk, or unacceptable risk.
+2. Does not pose a significant threat to the health, safety, or fundamental rights of citizens.
+3. Includes examples such as:
+	* Spam filters
+	* AI-powered games
+	* Video games
+	* AI-enabled search bars
+
+Minimal risk AI systems are not subject to specific obligations under the EU AI Act, but it is suggested to follow general principles such as human oversight, non-discrimination, and fairness.
+
+Note that the context also mentions that minimal risk AI systems can evolve into high-risk systems if their intended purpose changes, and therefore, organizations must remain vigilant.",True
+Simple,8,Who is responsible for complying with high-risk system requirements under the AI Act?,190.57986307144165,3,retrieve ➔ web_search ➔ generate,1.0,"According to the provided context, the responsibility for complying with high-risk system requirements under the AI Act lies with the **Providers** of high-risk AI systems. 
+
+As stated in [Web Search Result 3](https://www.modelop.com/ai-governance/ai-regulations-standards/eu-ai-act), ""Providers can be thought of as the entity that develops an AI system and makes it available to the marketplace."" 
+
+Additionally, [Web Search Result 2](https://goteleport.com/blog/eu-ai-act-requirements) mentions that ""Providers must establish, implement, document and maintain the risk management system required by Article 9."" This further emphasizes the responsibility of Providers in complying with high-risk system requirements.
+
+It is worth noting that Deployers, who are entities that take AI systems and make them part of their own products and/or services, also have obligations under the AI Act, but these are separate from the requirements for Providers.",True
+Simple,9,What is the core focus of OECD Principle 1.5?,195.21679496765137,2,retrieve ➔ generate,0.375,"The core focus of OECD Principle 1.5 is **Accountability**. According to the principle, AI actors are accountable for the proper functioning of AI systems and for compliance with the principles above. Organizations and individuals who develop, deploy, or operate AI must take responsibility for its real-world impacts.",True
+Simple,10,What are the record-keeping and logging obligations for high-risk AI systems?,201.02982831001282,3,retrieve ➔ web_search ➔ generate,1.0,"Based on the provided context, the record-keeping and logging obligations for high-risk AI systems are as follows:
+
+1. **Automatic Event Logging**: High-risk AI systems must be designed to automatically log all system-relevant events throughout their lifecycle.
+2. **Record-Keeping**: Providers and deployers of high-risk AI systems must retain logs for at least:
+	* 10 years for providers (Article 12 of the EU AI Act)
+	* 6 months for deployers (Article 12 of the EU AI Act)
+3. **Log Accessibility**: Deployers must make logs available to surveillance authorities on request.
+4. **Log Monitoring**: Deployers must monitor that the system performs within the provider's specifications.
+5. **Log Format and Structure**: Providers must design the logging architecture, define which events get recorded, and produce logs in formats suitable for analysis.
+6. **Audit Trail Structure**: Providers and deployers must build audit trail structures for traceability and post-market monitoring.
+7. **GDPR-Compliant Logging Strategy**: Logs must be handled in accordance with the General Data Protection Regulation (GDPR), with data minimization and purpose limitation.
+
+These obligations are in place to ensure that high-risk AI systems are transparent, accountable, and secure, and that any issues or incidents can be effectively monitored and addressed.",True
+Complex,1,"If a credit scoring AI is deployed, is it high-risk? What are the obligations, and what is the fine for a €20M company violating high-risk requirements?",197.14316248893738,2,retrieve ➔ generate,0.5,"Based on the provided context, a credit scoring AI is likely to be classified as a high-risk AI system. This is because credit scoring AI systems have the potential to cause significant harm to individuals, such as denial of credit or unfair treatment.
+
+As a high-risk AI system, the credit scoring AI must meet several strict requirements before being deployed on the EU market. These requirements include:
+
+1. **Risk Management System**: Establish a continuous, iterative risk management process throughout the system's lifecycle.
+2. **Data Quality and Governance**: High-risk AI must use high-quality training, validation, and testing datasets that are representative, free of errors, and checked for bias.
+3. **Technical Documentation**: Maintain comprehensive, up-to-date documentation explaining how the AI works to prove compliance.
+4. **Record-Keeping (Logging)**: Automatic event logging to track system execution, trace operations, and monitor performance.
+5. **Human Oversight**: High-risk systems must be designed to allow effective human monitoring and override capabilities (preventing automation bias).
+6. **Accuracy, Robustness, and Cybersecurity**: Ensure appropriate levels of resilience against attacks, errors, or unauthorized access.
+
+If a company violating high-risk requirements is fined, the fine is calculated based on global annual turnover or a fixed maximum amount, whichever is higher. For a company with a global annual turnover of €20M, the fine for non-compliance with high-risk system requirements or transparency rules would be up to €15,000,000 (€15 Million) or 3% of the company's global annual turnover, whichever is higher.
+
+In this case, the fine would be 3% of €20M, which is €600,000. However, the maximum fine is €15,000,000, so the fine would be capped at €15,000,000.",True
+Complex,2,"Compare how biometric categorization based on political beliefs is classified under the EU AI Act vs. OECD principles, and calculate the maximum fine if a company with a €200M turnover violates it.",112.39793467521667,1,calculator,0.0,"**EU AI Act Fine Calculation Result**
+
+**Violation Details:**
+
+- **Violation Type:** Non-compliance with Unacceptable/Prohibited AI Practices (e.g., social scoring, cognitive manipulation)
+
+**Company Information:**
+
+- **Company Annual Global Turnover:** €200,000,000.00
+
+**Fine Calculation Rules:**
+
+- **Fine Rule:** 7.000000000000001% of turnover or €35,000,000.00 (whichever is HIGHER)
+
+**Fine Calculation Results:**
+
+- **Calculated Turnover-based Fine:** €14,000,000.00 (based on 7.000000000000001% of €200,000,000.00)
+- **Fixed Fine Threshold:** €35,000,000.00
+
+**Final Fine Result:**
+
+- **RESULT (Maximum Fine Applicable):** €35,000,000.00 (as this is higher than the calculated turnover-based fine)
+
+**Conclusion:**
+
+The maximum fine applicable to the company for non-compliance with Unacceptable/Prohibited AI Practices is €35,000,000.00, as per the EU AI Act fine calculation rules.",True
+Complex,3,What is the penalty if a company with a €40M turnover supplies misleading information to regulatory authorities under the EU AI Act?,112.67478799819946,1,calculator,0.0,"**EU AI Act Fine Calculation Result**
+
+**Violation Details:**
+
+- **Violation Type:** Supplying incorrect, incomplete, or misleading information to regulators
+
+**Company Information:**
+
+- **Company Annual Global Turnover:** €40,000,000.00
+
+**Fine Calculation Rules:**
+
+- **Fine Rule:** The maximum fine is the higher of 1.5% of the company's annual global turnover or €7,500,000.00
+
+**Fine Calculation Results:**
+
+- **Calculated Turnover-based Fine:** €600,000.00 (1.5% of €40,000,000.00)
+- **Fixed Fine Threshold:** €7,500,000.00
+- **RESULT (Maximum Fine Applicable):** €7,500,000.00
+
+**Conclusion:**
+
+Based on the provided information and fine calculation rules, the maximum fine applicable for the specified violation is €7,500,000.00. This is the higher of the calculated turnover-based fine and the fixed fine threshold.",True
+Complex,4,Compare the compliance requirements for a deepfake generation tool vs. an employee recruitment CV sorter under the EU AI Act.,189.02965354919434,2,retrieve ➔ generate,0.5,"Based on the provided context, both deepfake generation tools and employee recruitment CV sorters fall under the category of high-risk AI systems. However, they belong to different categories:
+
+* Deepfake generation tools would likely be classified under the category of **Law Enforcement** or **Administration of Justice & Democratic Processes**, as they can be used to create fake evidence or manipulate public opinion.
+* Employee recruitment CV sorters would be classified under the category of **Employment and Worker Management**, as they are used for recruitment purposes.
+
+Given this classification, the compliance requirements for both systems would be similar, but with some differences:
+
+**Similar requirements:**
+
+* **Risk Management System**: Both systems must establish a continuous, iterative risk management process throughout their lifecycle.
+* **Data Quality and Governance**: Both systems must use high-quality training, validation, and testing datasets that are representative, free of errors, and checked for bias.
+* **Technical Documentation**: Both systems must maintain comprehensive, up-to-date documentation explaining how the AI works to prove compliance.
+* **Record-Keeping (Logging)**: Both systems must implement automatic event logging to track system execution, trace operations, and monitor performance.
+* **Human Oversight**: Both systems must be designed to allow effective human monitoring and override capabilities (preventing automation bias).
+* **Accuracy, Robustness, and Cybersecurity**: Both systems must ensure appropriate levels of resilience against attacks, errors, or unauthorized access.
+
+**Differences:**
+
+* **Biometric Data**: Deepfake generation tools may involve the use of biometric data, which would require additional compliance requirements, such as ensuring the protection of sensitive biometric information.
+* **Impact on Fundamental Rights**: Deepfake generation tools have the potential to negatively impact fundamental rights, such as the right to privacy and the right to freedom of expression. This would require additional compliance requirements, such as ensuring that the system does not create or disseminate fake content that could harm individuals or society.
+* **Transparency and Explainability**: Deepfake generation tools may require additional transparency and explainability measures to ensure that users understand how the system works and can identify potential biases or errors.
+
+In summary, while both deepfake generation tools and employee recruitment CV sorters are high-risk AI systems, they have different compliance requirements due to their specific categories and potential impacts on fundamental rights.",True
+Complex,5,Is a chatbot for customer service considered high-risk or limited risk? Explain its transparency rules.,195.60509967803955,3,retrieve ➔ web_search ➔ generate,1.0,"A chatbot for customer service is considered a Limited-Risk AI system under the EU AI Act. This classification is based on the fact that chatbots are primarily used for customer service and do not pose a significant risk to safety or fundamental rights.
+
+As a Limited-Risk AI system, the chatbot is subject to transparency obligations to ensure that users are not manipulated or deceived. The transparency rules for chatbots are as follows:
+
+1. **Notification**: The chatbot must clearly notify users that they are interacting with an automated system, unless it is obvious from the context.
+2. **Labeling**: The chatbot's outputs (e.g., text, images, or videos) must be marked in a machine-readable format to indicate that they are artificially generated or manipulated.
+3. **Watermarking**: The chatbot's outputs must be clearly labeled as AI-generated content to prevent users from mistakenly believing they are interacting with a human agent.
+
+These transparency rules aim to prevent users from being misled or deceived by the chatbot, and to ensure that they understand the nature of their interaction with the system.
+
+It's worth noting that while chatbots are considered Limited-Risk AI systems, they are still subject to general product safety laws and regulations, and providers must ensure that the chatbot is designed and implemented in a way that is safe and secure for users.",True
+Complex,6,How do the OECD's guidelines on accountability compare to the EU AI Act's human oversight rules?,191.49210786819458,3,retrieve ➔ web_search ➔ generate,0.6111111111111112,"The OECD's guidelines on accountability and the EU AI Act's human oversight rules share similarities in their emphasis on ensuring that AI systems are transparent, explainable, and subject to human oversight. However, there are differences in their approach and scope.
+
+The OECD's Principle 1.5 on Accountability emphasizes that AI actors are accountable for the proper functioning of AI systems and for compliance with the principles above. Organizations and individuals who develop, deploy, or operate AI must take responsibility for its real-world impacts.
+
+In contrast, the EU AI Act's human oversight rules, as outlined in Article 14, require providers of high-risk AI systems to implement measures to ensure effective human oversight. This involves designing the system with mechanisms that allow human operators to monitor, intervene, and deactivate the AI system if necessary.
+
+While the OECD's guidelines focus on accountability as a broader concept, the EU AI Act's human oversight rules provide more specific requirements for high-risk AI systems. The EU AI Act's rules emphasize the importance of human oversight in ensuring that AI systems do not pose unacceptable risks or operate in a manner that protects individuals' rights and safety.
+
+In terms of compliance, the OECD's guidelines do not explicitly govern compliance or regulatory oversight, whereas the EU AI Act creates new regulatory and enforcement powers for existing bodies, including the European Commission, and also creates entirely new bodies such as the AI Board and the AI Office.
+
+Overall, while both the OECD's guidelines and the EU AI Act's human oversight rules aim to promote accountability and transparency in AI systems, the EU AI Act's rules provide more specific and stringent requirements for high-risk AI systems.",True
+Complex,7,What is the potential fine if a company with a €300M turnover uses subliminal manipulation leading to physical harm?,110.96815848350525,1,calculator,0.0,"**EU AI Act Fine Calculation Result**
+
+**Violation Details:**
+
+- **Violation Type:** Non-compliance with Unacceptable/Prohibited AI Practices (e.g., social scoring, cognitive manipulation)
+
+**Company Information:**
+
+- **Company Annual Global Turnover:** €300,000,000.00
+
+**Fine Calculation Rules:**
+
+- **Fine Rule:** 7.000000000000001% of turnover or €35,000,000.00 (whichever is HIGHER)
+
+**Fine Calculation Results:**
+
+- **Calculated Turnover-based Fine:** €21,000,000.00 (based on 7.000000000000001% of €300,000,000.00)
+- **Fixed Fine Threshold:** €35,000,000.00
+
+**Final Fine Result:**
+
+- **RESULT (Maximum Fine Applicable):** €35,000,000.00 (as this is higher than the calculated turnover-based fine)
+
+**Conclusion:**
+
+The maximum fine applicable to the company for non-compliance with Unacceptable/Prohibited AI Practices is €35,000,000.00, as per the EU AI Act fine calculation rules.",True
+Complex,8,"If a company with €10M turnover fails to implement risk management for an admissions grading AI, what is the maximum fine?",110.30720567703247,1,calculator,0.0,"**EU AI Act Fine Calculation Result**
+
+**Violation Details:**
+
+- **Violation Type:** Non-compliance with High-Risk AI system requirements or Transparency rules
+
+**Company Information:**
+
+- **Company Annual Global Turnover:** €10,000,000.00
+
+**Fine Calculation:**
+
+- **Fine Rule:** 3.0% of turnover or €15,000,000.00 (whichever is HIGHER)
+- **Calculated Turnover-based Fine:** €300,000.00 (3.0% of €10,000,000.00)
+- **Fixed Fine Threshold:** €15,000,000.00
+
+**Result:**
+
+- **Maximum Fine Applicable:** €15,000,000.00 (as this is higher than the calculated turnover-based fine)
+
+**Conclusion:**
+
+The maximum fine applicable to your company for non-compliance with High-Risk AI system requirements or Transparency rules under the EU AI Act is €15,000,000.00.",True
+Complex,9,What is the latest status of the EU AI Office in 2026?,400.9641628265381,7,retrieve ➔ web_search ➔ generate ➔ reformulate ➔ retrieve ➔ web_search ➔ generate,0.05555555555555555,"According to the provided context, the latest information available is from May 2026. 
+
+On 7 May 2026, negotiators from the Council of the European Union, the European Parliament, and the European Commission reached a provisional agreement on the terms of the Digital Omnibus on AI, marking the first set of amendments to the EU AI Act since its adoption in June 2024.
+
+However, there is no specific information about the status of the EU AI Office in 2026.",True
+Complex,10,Explain the fine structure under the EU AI Act and calculate the maximum fine for a company with €500M turnover under all three violation types.,190.7804799079895,2,retrieve ➔ generate,0.875,"The fine structure under the EU AI Act is as follows:
+
+* **Non-compliance with Unacceptable/Prohibited AI Practices**: Fines up to €35,000,000 or 7% of the company's global annual turnover of the preceding financial year, whichever is higher.
+* **Non-compliance with High-Risk System Requirements or Transparency Rules**: Fines up to €15,000,000 or 3% of the company's global annual turnover of the preceding financial year, whichever is higher.
+* **Supplying Incorrect, Incomplete, or Misleading Information to Regulators**: Fines up to €7,500,000 or 1.5% of the company's global annual turnover of the preceding financial year, whichever is higher.
+
+To calculate the maximum fine for a company with €500M turnover under each violation type, we need to compare the fixed maximum amount with the percentage of turnover.
+
+For **Non-compliance with Unacceptable/Prohibited AI Practices**:
+- Fixed maximum amount: €35,000,000
+- Percentage of turnover: 7% of €500M = €35,000,000
+Since the fixed maximum amount is equal to the percentage of turnover, the maximum fine is €35,000,000.
+
+For **Non-compliance with High-Risk System Requirements or Transparency Rules**:
+- Fixed maximum amount: €15,000,000
+- Percentage of turnover: 3% of €500M = €15,000,000
+Since the fixed maximum amount is equal to the percentage of turnover, the maximum fine is €15,000,000.
+
+For **Supplying Incorrect, Incomplete, or Misleading Information to Regulators**:
+- Fixed maximum amount: €7,500,000
+- Percentage of turnover: 1.5% of €500M = €7,500,000
+Since the fixed maximum amount is equal to the percentage of turnover, the maximum fine is €7,500,000.
+
+In all three cases, the maximum fine for a company with €500M turnover is equal to the fixed maximum amount, which is €35,000,000 for the first case, €15,000,000 for the second case, and €7,500,000 for the third case.",True

@@ -1,0 +1,16 @@
+# Environment variables / credentials
+.env
+
+# Python caching
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# VS Code directory (optional, but good to ignore user settings)
+.vscode/
+
+# OS specific files
+Thumbs.db
+.DS_Store
+
